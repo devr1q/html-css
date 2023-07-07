@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(120, 76, 243);
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(249, 57, 159);
+            padding: 10px;
+            margin: 10px;
+        }
+        header > h1{
+            text-align: center;
+        } 
+        nav{
+            background-color: white;
+            color: blue;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+        }
+        nav > a{
+            margin-right: 33px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        nav > a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 5px rgb(0, 0, 0, 0.7);
+        }
+        #assuntos{
+            color: rgb(120, 76, 243);
+            font-weight: bold;
+            font-size: 18px;
+        }
+        article{
+            background-color: rgb(249, 57, 159);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(106, 55, 154);
+            color: gold;
+        }
+        footer{
+            background-color: black;
+            color: darkgoldenrod;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin-top: 20px;
+            margin-left: 42%;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site de declarações da informação</h1>
+        <nav>
+            <a href="#">BNCS Notícias</a>
+            <a href="#">NY TIMES</a>
+            <a href="#">BAND NEWS</a>
+            <a href="#">SBT NEWS</a>
+            <a href="#">RECORD NEWS</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>O Novo Pele!</h2>
+                <p>Conhecido como 'Pele dos 2k23', Pedro De Barcellos chega a bater o recorde de gols em toda temporada do artileiro do atual champeons. Halland perde seu posto para um jovem apaixonado por um esporte único e incrivel!</p>
+                <aside>
+                    <p>Artigo escrito por Federação mundial do Futebol, FMF.</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Henrique Lindozo.</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

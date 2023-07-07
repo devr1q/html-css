@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(84, 84, 230);
+        }
+
+        div{
+            background-color: purple;
+            color: darkorange;
+            padding-top: 180px;
+        }
+
+        div#ex1 {
+            height: 190px;
+            width: 190px;
+            text-align: center;
+            border: 2px solid black;
+            
+        }
+
+        div#ex2 {
+            height: 190px;
+            width: 190px;
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        div#ex3 {
+            height: 190px;
+            width: 190px;
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        div:hover {
+            color: yellow;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div#ex1:hover > p{
+            display: block;
+            color: aqua;
+            background-color: purple;
+        }
+
+        div#ex2:hover > p{
+            display: block;
+            color: aqua;
+            background-color: purple;
+        }
+
+        div#ex3:hover > p{
+            display: block;
+            color: aqua;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de aparição de Div</abbr> escondidas</h1>
+    Aqui nós teremos jogo de descoberta da chave secreta
+    <div id="ex1">
+        Ache a palavra chave.
+        <p>EITAA!!! Caiu na pegadinha.</p>
+    </div>
+    <div id="ex2">
+        Ache a palavra chave.
+        <p>EITAA!!! Caiu na pegadinha.</p>
+    </div>
+    <div id="ex3">
+        Ache a palavra chave.
+        <p>EUU TEE AMUUUU.</p>
+    </div>
+    <pre>
+
+
+        Iae?. Você achooouu????
+    </pre>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos ospedados localmente</h1>
+    <p>Este vídeos está ospedado no meu próprio servidor!</p>
+    
+    <video controls width="300" loop poster="imgs/minha-foto.jpg">
+        <source src="midia/meu-video.mkv.mkv" type="video/mkv">
+        <source src="midia/meu-video.webm.webm" type="video/webm">
+        <source src="midia/meu-videeo.mp4.mp4" type="video/mp4">
+    </video>
+    <p>Se não carregou, pode ficar a vontade para baixar em arquivo: <a href="midia/meu-videeo.mp4.mp4">vídeo mp4</a>
+    </p>
+    <h1>Incerindo vídeos do youtube</h1>
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/GQYVu94I998" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>Incerindo vídeos do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/126287950?h=c655f0ff29" width="500" height="303" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imgs/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/foto-m.png" type="image/png">
+        <img src="imgs/foto-g.png" alt="Imagem flexivél">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>vamos aprender a reproduzir áudios em HTML5.</p>
+    <p>Escute um trilha sonóra linda de jogo!</p>
+    <audio src="midia/parzival-william.rosati.mp3" controls autoplay></audio>
+    <!-- MP3, WAV e OGG -->
+    
+    <p>Essa é outra maneira de carregar o áudio se não for MP3 ou se o autoplay não funcionar:</p>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/parzival-william.rosati.mp3" type="audio/mpeg">
+        <source src="midia/parzival-william.rosati.ogg" type="audio/ogg">
+        <source src="midia/parzival-william.rosati.wav" type="audio/wav">
+        <p>Vai SEMPRE estar carregando em ordem sobre o que foi colocado, porém se nenhum deles foram, logo, o seu navegador não suporta nenhum reprodutor de áudio. <a href="midia/parzival-william.rosati.mp3">Clique aqui para baixar o arquivo de áudio MP3</a></p>
+    </audio>
+
+     
+</body>
+</html>

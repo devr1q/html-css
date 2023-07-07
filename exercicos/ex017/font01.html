@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas:
+            cm, mm, in/polegada, px/pixel, pt/ponto, pc/paica
+
+            Medidas Relativas:
+            em/tamanho atual, 
+            ex/altual x da fonte, 
+            rem/altura a font do body, 
+            Vw/veewl width é a largura da veewl port q é o tamanho da tela, 
+            Vh/ altura da Veewl port, 
+            %
+
+            16PX geralmente é 1EM!
+            */
+            font-size: 20px;
+            /* font-weight:        peso/negrito  */
+            /*font-style:          ênfase/iálico  */
+            /*text-decoration: underline;      destacado/sublinhado  */
+            
+            /* weight(peso) width(largula) height(altura)
+            essas são as gorduras das letras: lighter, normal, bold, bolder */
+        }
+
+        h1{
+            /*  shorthand font  
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 2em;
+            font-style: italic;
+
+            # font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 2em 'work sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2m 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ipsum, obcaecati quo animi ipsam quam labore explicabo doloribus vitae accusamus eveniet incidunt voluptatibus quis ea officiis sequi impedit vel quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque consectetur hic, earum eligendi, cum nulla quis temporibus ipsam, voluptatum sequi sapiente omnis expedita itaque. Numquam iusto ea quod nemo?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis voluptatem reprehenderit sapiente expedita delectus minus incidunt ad exercitationem? Voluptatem maiores harum alias ab rerum incidunt laborum adipisci dolorum blanditiis aspernatur?</p>
+    <h2>Sbtitúlos do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ipsum laborum deserunt eligendi porro commodi magni. Cumque eveniet expedita dolore aut nisi suscipit deserunt ullam voluptas maiores deleniti. Ipsam, assumenda!</p>
+</body>
+</html>
