@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda pág</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        table{
+            text-align: center;
+            border-collapse: collapse;
+            width: 280px;
+        }
+        caption{
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        td, th{
+            border: 2px solid black;
+            padding: 7px;
+        }
+        .cl{
+            background-color: darkturquoise;
+        }
+        .es{
+            background-color: rgb(1, 148, 198);
+        }
+        .ama{
+            background-color: yellow;
+        }
+        .red{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="ama">
+            <col class="es">
+            <col class="cl" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Isabel</td>
+            <td>Feminino</td>
+            <td>18</td>
+            <td>Cozinheira</td>
+        </tr>
+        <tr>
+            <td>Henrique</td>
+            <td>Masculino</td>
+            <td>17</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Ana Júlia</td>
+            <td>Feminino</td>
+            <td>12</td>
+            <td>Bióloga</td>
+        </tr>
+        <tr>
+            <td>Alessandra</td>
+            <td>Feminino</td>
+            <td>38</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Marcio</td>
+            <td>Masculino</td>
+            <td>45</td>
+            <td>Pastor</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>Masculino</td>
+            <td>16</td>
+            <td>Futebolista</td>
+        </tr>
+        <tr>
+            <td>Ângelo</td>
+            <td>Masculino</td>
+            <td>18</td>
+            <td>Designer Gráfico</td>
+        </tr>
+    </table>
+</body>
+</html>

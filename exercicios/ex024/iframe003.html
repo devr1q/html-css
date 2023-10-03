@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            width: 96vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+            padding: 15px;
+        }
+        #hehe{
+            font-size: 3em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>"Faça uma escolha"</h1>
+    <p>Aqui estão algumas tabelas que eu fiz. Você pode escolher e clicar na qual preferir e veja logo a seguir:</p>
+
+    <ul>
+        <li><a href="pags-extras/pag001.html" target="cubinho">Tabela de Venda dos Produtos</a></li>
+        <li><a href="pags-extras/pag002.html" target="cubinho">Tabela dos Cadastro</a></li>
+        <li><a href="pags-extras/pag003.html" target="cubinho">Tabelas dos Filmes</a></li>
+    </ul>
+
+    <p>Aqui está uma função nova que aprendi. Então para meio educativos, fiz uma tela onde verá a resolução das tabelas da sua escolha acima, aproveite:</p>
+
+    <iframe src="" id="tela" name="cubinho">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p id="hehe">Espero que tenha gostado!!</p>
+</body>
+</html>
