@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas Responsivas</title>
+    <title>Site de Teste</title>
     <style>
         body{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            background-color: rgb(202, 182, 243);
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(97, 194, 226);
+            color: purple;
         }
         table{
             border-collapse: collapse;
@@ -24,17 +25,18 @@
         }
         tr:nth-child(2n){
             background-color: rgb(146, 68, 230);
+            color: white;
         }
-        /*overflow = transbordando. deixa só a tabela com rolagem horizontal*/
-        div#container{    
-            overflow-x: auto;
+        tr:nth-child(odd){
+            background-color: white;
+        }
+        #mel{
+            overflow: auto;
         }
     </style>
 </head>
 <body>
-    <h1>Tabelas em telas pequenas</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate quam autem eius nihil iusto! Necessitatibus possimus dolor consectetur animi fugit quaerat voluptatum voluptates? Voluptates, quos odit. Reprehenderit ut quo fugit.</p>
-    <div id="container">
+    <div id="mel">
         <table>
             <caption>Venda de produtos no mês de setembro
             </caption>
