@@ -11,23 +11,36 @@
         a{
             display: block;
             color: #ffdd03;
-            text-decoration: none;
             text-align: center;
-            padding-top: 30px;
+            text-decoration: none;
+            padding-top: 10px;
             font-weight: bold;
             font-size: 1.3em;
+        }
+        .be{
+            font-weight: bold;
+            font-size: 1.2em;
+            color: rgb(55, 0, 105);
+            text-align: center;
+            padding-top: 15px;
+        }
+        p{
+            font-weight: bold;
+            text-align: center;
+            color: rgb(155, 2, 2);
         }
     </style>
 </head>
 <body>
-    <a href="#" onclick="clicou()">Clique em mim!</a>
+    <p class="be">Quer saber o quanto eu te amo?</p>
+    <a href="#" onclick="clicou()">Veja o quanto:</a>
     <div id="saida"></div>
 
 
     <script>
         function clicou() {
             s = document.getElementById("saida")
-            s.innerHTML += '<p>Você clicou!</p>'
+            s.innerHTML += '<p>Muitoo!</p>'
         }
     </script>
 </body>
