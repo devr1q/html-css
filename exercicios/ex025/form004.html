@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1{
+            margin-bottom: 30px;
+        }
+        div{
+            margin-bottom: 10px;
+        }
+        div#but{
+            padding-top: 20px;
+            padding-left: 7px;
+        }
+        input#inp{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.cs" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="iname">Nome: </label>
+                <input type="text" name="nome" id="iname" required autocomplete="name" minlength="3" maxlength="30" placeholder="Your name">
+            </div>
+            <div>
+                <label for="iemail">E-mail: </label>
+                <input type="email" name="mail" id="iemail" minlength="12" required autocomplete="email" placeholder="+ @gmail.com">
+            </div>
+            <div>
+                <label for="itel">Telefone: </label>
+                <input type="tel" name="tel" id="itel" required autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxx-xxxx">
+            </div>
+        </fieldset>
+        <!-- Estudar mais sobre RegEx -->
+        <div id="but">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar" id="inp">
+        </div>
+    </form>
+</body>
+</html>
