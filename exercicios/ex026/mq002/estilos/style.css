@@ -11,10 +11,12 @@ html, body{
     width: 100vw;
     height: 100vh;
     background-color: #233eff;
-    background-size: contain;
+    background-size: cover;
 }
-h1{
+header{
+    font-size: 2.3em;
+    font-weight: bolder;
     color: white;
-    text-shadow: 2px 2px 0px #1a2cb2;
+    text-shadow: 3px 3px 0px #1a2cb2;
     padding: 10px;
 }
