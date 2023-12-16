@@ -4,8 +4,5 @@
 
 body{
     background-image: url(../img/cev-portrait.jpg);
-    background-position: left bottom;
-}
-header{
-    padding-bottom: 10px;
+    background-position: center bottom;
 }
