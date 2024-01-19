@@ -1,11 +1,59 @@
 @charset "utf-8";
 
-body, html{
+*{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: lightblue;
+    padding: 0px;
+    margin: 0px;
 }
 
-a{
+body{
+    background-color: rgba(17, 157, 164, 0.7);
+}
+header{
+    background-color: rgba(17, 157, 164, 0.7);
+
+}
+header h1{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-shadow: 4px 3px 5px rgb(5, 66, 77);
+}
+menu{
+    display: block;
+}
+menu ul{
+    list-style-type: none;
+}
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    font-size: 15px;
     text-decoration: none;
-    color: darkgreen;
+    text-align: center;
+    background-color: #0a6172;
+    color: rgba(0, 211, 222, 0.88);
+    border-top: 2px solid #119DA4;
+}
+menu li > a:hover{
+    background-color: #B0F2B4;
+    color: #13505B;
+}
+main{
+    width: 90vw;
+    background-color: rgba(20, 82, 93, 0.706);
+    color: white;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+article h2{
+    padding-bottom: 20px;
+}
+article p{
+    text-align: justify;
+    margin-bottom: 15px;
+    text-indent: 20px;
 }
